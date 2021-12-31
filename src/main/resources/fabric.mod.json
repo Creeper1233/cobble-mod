@@ -1,10 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "cobblecultmod",
-  "version": "1.0.0",
-  "name": "CobbleCultMod",
+  "version": "alpha 1.0",
+  "name": "Cobble Mod",
+  "description": "for cobble cult",
   "authors": [
-    "sstaf, MCreator"
+    "iisnowcreeper"
   ],
   "contact": {
     "homepage": "https://mcreator.net",

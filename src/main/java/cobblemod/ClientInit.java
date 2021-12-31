@@ -12,11 +12,14 @@
 */
 package cobblemod;
 
+import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
+
+import cobblemod.client.gui.screen.CobbleeGuiWindow;
 
 @Environment(EnvType.CLIENT)
 public class ClientInit implements ClientModInitializer {
@@ -24,6 +27,7 @@ public class ClientInit implements ClientModInitializer {
 	public void onInitializeClient() {
 		HudRenderCallback.EVENT.register((matrices, tickDelta) -> {
 		});
+		ScreenRegistry.register(CobblecultmodMod.CobbleeScreenType, CobbleeGuiWindow::new);
 		ClientTickEvents.END_CLIENT_TICK.register((client) -> {
 		});
 	}

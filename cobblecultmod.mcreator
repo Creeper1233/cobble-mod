@@ -45,6 +45,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobble_armor_armor_boots_recipe"
+    },
+    {
+      "name": "Cobblee",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblee"
+    },
+    {
+      "name": "Givechicken",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "givechicken",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cobbletab",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbletab"
+    },
+    {
+      "name": "Cobblessong",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblessong"
     }
   ],
   "variable_elements": [],
@@ -52,9 +92,12 @@
   "language_map": {
     "en_us": {
       "item.cobblecultmod.cobble_armor_armor_helmet": "Cobble_Armor Helmet",
+      "item.cobblecultmod.cobblessong": "Cobblessong",
+      "item.cobblecultmod.cobblessong.desc": "Catjam",
       "item.cobblecultmod.cobble_armor_armor_leggings": "Cobble_Armor Leggings",
       "item.cobblecultmod.cobble_armor_armor_boots": "Cobble_Armor Boots",
-      "item.cobblecultmod.cobble_armor_armor_chestplate": "Cobble_Armor Chestplate"
+      "item.cobblecultmod.cobble_armor_armor_chestplate": "Cobble_Armor Chestplate",
+      "itemGroup.cobblecultmod.cobbletab": "Cobbletab"
     }
   },
   "foldersRoot": {
@@ -63,10 +106,10 @@
   },
   "workspaceSettings": {
     "modid": "cobblecultmod",
-    "modName": "CobbleCultMod",
-    "version": "1.0.0",
-    "author": "sstaf, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "modName": "Cobble Mod",
+    "version": "alpha 1.0",
+    "description": "for cobble cult",
+    "author": "iisnowcreeper",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

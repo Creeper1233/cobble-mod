@@ -1,0 +1,60 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 150,
+    "height": 175,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Chicken",
+          "onClick": {
+            "name": "Givechicken"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Chicken",
+          "x": 141,
+          "y": 36
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Chicken.ogg",
+          "width": 82,
+          "height": 20,
+          "name": "Chicken.ogg",
+          "x": 202,
+          "y": 36
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "more coming soon",
+          "color": {
+            "value": -10027009,
+            "falpha": 0.0
+          },
+          "name": "more coming soon",
+          "x": 168,
+          "y": 77
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 14,
+      "sy": 18,
+      "ox": 15,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
