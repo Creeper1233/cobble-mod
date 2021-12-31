@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblecultmod",
+  "version": "1.0.0",
+  "name": "CobbleCultMod",
+  "authors": [
+    "sstaf, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": "https://github.com/ClothCreators/Fabric-Generator-MCreator"
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cobblemod.CobblecultmodMod"
+    ],
+    "client": [
+      "cobblemod.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*"
+  }
+}

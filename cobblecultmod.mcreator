@@ -1,0 +1,82 @@
+{
+  "mod_elements": [
+    {
+      "name": "Cobble_ArmorArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Cobble_ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "Cobble_ArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_armor_armor_body_recipe"
+    },
+    {
+      "name": "Cobble_ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "Cobble_ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_armor_armor_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.cobblecultmod.cobble_armor_armor_helmet": "Cobble_Armor Helmet",
+      "item.cobblecultmod.cobble_armor_armor_leggings": "Cobble_Armor Leggings",
+      "item.cobblecultmod.cobble_armor_armor_boots": "Cobble_Armor Boots",
+      "item.cobblecultmod.cobble_armor_armor_chestplate": "Cobble_Armor Chestplate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cobblecultmod",
+    "modName": "CobbleCultMod",
+    "version": "1.0.0",
+    "author": "sstaf, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.16.5",
+    "modElementsPackage": "cobblemod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}
