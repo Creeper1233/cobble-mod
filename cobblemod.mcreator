@@ -12,7 +12,8 @@
         "el": true,
         "eb": true,
         "ec": true
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "Cobble_ArmorArmorHelmetRecipe",
@@ -20,7 +21,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_armor_armor_helmet_recipe"
+      "registry_name": "cobble_armor_armor_helmet_recipe",
+      "path": "~/Armor"
     },
     {
       "name": "Cobble_ArmorArmorBodyRecipe",
@@ -28,7 +30,8 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_armor_armor_body_recipe"
+      "registry_name": "cobble_armor_armor_body_recipe",
+      "path": "~/Armor"
     },
     {
       "name": "Cobble_ArmorArmorLeggingsRecipe",
@@ -36,7 +39,8 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_armor_armor_leggings_recipe"
+      "registry_name": "cobble_armor_armor_leggings_recipe",
+      "path": "~/Armor"
     },
     {
       "name": "Cobble_ArmorArmorBootsRecipe",
@@ -44,7 +48,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_armor_armor_boots_recipe"
+      "registry_name": "cobble_armor_armor_boots_recipe",
+      "path": "~/Armor"
     },
     {
       "name": "Cobblessong",
@@ -52,7 +57,8 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobblessong"
+      "registry_name": "cobblessong",
+      "path": "~/Misc"
     },
     {
       "name": "CobblePickaxe",
@@ -60,7 +66,8 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_pickaxe"
+      "registry_name": "cobble_pickaxe",
+      "path": "~/Tools"
     },
     {
       "name": "CobbleAxe",
@@ -68,7 +75,8 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_axe"
+      "registry_name": "cobble_axe",
+      "path": "~/Tools"
     },
     {
       "name": "CobbleSword",
@@ -76,7 +84,8 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_sword"
+      "registry_name": "cobble_sword",
+      "path": "~/Tools"
     },
     {
       "name": "CobbleShovel",
@@ -84,7 +93,8 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_shovel"
+      "registry_name": "cobble_shovel",
+      "path": "~/Tools"
     },
     {
       "name": "CobbleHoe",
@@ -92,7 +102,8 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_hoe"
+      "registry_name": "cobble_hoe",
+      "path": "~/Tools"
     },
     {
       "name": "CobblePickaxeRecipe",
@@ -100,7 +111,8 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_pickaxe_recipe"
+      "registry_name": "cobble_pickaxe_recipe",
+      "path": "~/Tools"
     },
     {
       "name": "CobbleAxeRecipe",
@@ -108,7 +120,8 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_axe_recipe"
+      "registry_name": "cobble_axe_recipe",
+      "path": "~/Tools"
     },
     {
       "name": "CobbleSwordRecipe",
@@ -116,7 +129,8 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_sword_recipe"
+      "registry_name": "cobble_sword_recipe",
+      "path": "~/Tools"
     },
     {
       "name": "CobbleShovelRecipe",
@@ -124,7 +138,8 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_shovel_recipe"
+      "registry_name": "cobble_shovel_recipe",
+      "path": "~/Tools"
     },
     {
       "name": "CobbleHoeRecipe",
@@ -132,7 +147,8 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobble_hoe_recipe"
+      "registry_name": "cobble_hoe_recipe",
+      "path": "~/Tools"
     },
     {
       "name": "Diamond1in100",
@@ -148,7 +164,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "Cobbletab",
@@ -156,7 +173,8 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobbletab"
+      "registry_name": "cobbletab",
+      "path": "~/Misc"
     },
     {
       "name": "Catjamdisc",
@@ -164,7 +182,8 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "catjamdisc"
+      "registry_name": "catjamdisc",
+      "path": "~/Misc"
     },
     {
       "name": "ChickenwingItemIsDroppedByPlayer",
@@ -180,7 +199,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Food"
     },
     {
       "name": "Chickenwing",
@@ -188,7 +208,8 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "chickenwing"
+      "registry_name": "chickenwing",
+      "path": "~/Food"
     },
     {
       "name": "CraftChickenWing",
@@ -196,7 +217,8 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craft_chicken_wing"
+      "registry_name": "craft_chicken_wing",
+      "path": "~/Food"
     }
   ],
   "variable_elements": [],
@@ -206,16 +228,16 @@
       "item.cobblecultmod.cobble_armor_armor_helmet": "Cobble_Armor Helmet",
       "item.cobblemod.cobble_armor_armor_helmet": "Cobble_Armor Helmet",
       "item.cobblemod.cobble_shovel": "Cobble Shovel",
-      "item.cobblecultmod.cobble_pickaxe": "Cobble Pickaxe",
       "item.cobblecultmod.cobble_axe": "Cobble Axe",
+      "item.cobblecultmod.cobble_pickaxe": "Cobble Pickaxe",
       "item.cobblecultmod.cobble_shovel": "Cobble Shovel",
       "item.cobblemod.cobble_pickaxe": "Cobble Pickaxe",
       "item.cobblecultmod.cobblessong": "Cobblessong",
       "item.cobblemod.cobblessong.desc": "Catjam",
       "item.cobblemod.cobble_sword": "Cobble Sword",
       "item.cobblecultmod.cobble_sword": "Cobble Sword",
-      "item.cobblecultmod.cobble_hoe": "Cobble Hoe",
       "item.cobblemod.cobble_armor_armor_boots": "Cobble_Armor Boots",
+      "item.cobblecultmod.cobble_hoe": "Cobble Hoe",
       "item.cobblecultmod.cobble_armor_armor_chestplate": "Cobble_Armor Chestplate",
       "item.cobblemod.cobble_axe": "Cobble Axe",
       "item.cobblemod.cobble_armor_armor_leggings": "Cobble_Armor Leggings",
@@ -232,7 +254,24 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "Misc",
+        "children": []
+      },
+      {
+        "name": "Food",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "cobblemod",
