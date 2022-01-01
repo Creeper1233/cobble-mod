@@ -23,7 +23,6 @@ import net.minecraft.item.Item;
 import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
 import net.fabricmc.api.ModInitializer;
 
-import cobblemod.procedures.Givechicken2Procedure;
 import cobblemod.procedures.Diamond1in100Procedure;
 
 import cobblemod.item.CobbletabItemGroup;
@@ -35,7 +34,7 @@ import cobblemod.item.CobblePickaxeTool;
 import cobblemod.item.CobbleHoeTool;
 import cobblemod.item.CobbleAxeTool;
 
-public class CobblecultmodMod implements ModInitializer {
+public class CobblemodMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
 	public static final Item Cobblessong_ITEM = Registry.register(Registry.ITEM, id("cobblessong"), new CobblessongMusicDisc());
 	public static final ItemGroup Cobbletab = CobbletabItemGroup.get();
@@ -55,14 +54,13 @@ public class CobblecultmodMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Initializing CobblecultmodMod");
-		new Givechicken2Procedure();
+		LOGGER.info("Initializing CobblemodMod");
 		new Diamond1in100Procedure();
 		CommandRegistrationCallback.EVENT.register((dispatcher, dedicated) -> {
 		});
 	}
 
 	public static final Identifier id(String s) {
-		return new Identifier("cobblecultmod", s);
+		return new Identifier("cobblemod", s);
 	}
 }

@@ -7,7 +7,6 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.HoeItem;
 import net.minecraft.entity.LivingEntity;
@@ -52,7 +51,8 @@ public class CobbleHoeTool {
 			return Ingredient.ofItems(Items.COOKED_CHICKEN);
 		}
 	};
-	public static final Item INSTANCE = new HoeItem(COBBLEHOE_TOOL_MATERIAL, 0, (float) 8, (new FabricItemSettings().group(ItemGroup.TOOLS))) {
+	public static final Item INSTANCE = new HoeItem(COBBLEHOE_TOOL_MATERIAL, 0, (float) 8,
+			(new FabricItemSettings().group(CobbletabItemGroup.get()))) {
 		@Override
 		public boolean postMine(ItemStack itemstack, World world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 			boolean retval = super.postMine(itemstack, world, blockstate, pos, entity);

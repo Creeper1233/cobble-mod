@@ -8,7 +8,7 @@
     "name": "Cobble Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Cobbletab"
     },
     "toolType": "Hoe",
     "harvestLevel": 5,

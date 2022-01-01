@@ -1,5 +1,5 @@
 {
-  "group": "cobblecultmod",
+  "group": "cobblemod",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "01",
@@ -24,7 +24,7 @@
     }
   },
   "result": {
-    "item": "cobblecultmod:cobble_axe",
+    "item": "cobblemod:cobble_axe",
     "count": 1
   }
 }

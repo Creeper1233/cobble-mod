@@ -1,5 +1,5 @@
 {
-  "group": "cobblecultmod",
+  "group": "cobblemod",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "0 2",
@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "cobblecultmod:cobble_armor_armor_boots",
+    "item": "cobblemod:cobble_armor_armor_boots",
     "count": 1
   }
 }

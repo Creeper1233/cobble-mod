@@ -2,9 +2,9 @@
   "_fv": 24,
   "_type": "tab",
   "definition": {
-    "name": "Cobbletab",
+    "name": "Cobble Mod",
     "icon": {
-      "value": "Items.COOKED_CHICKEN"
+      "value": "CUSTOM:Cobblessong"
     },
     "showSearch": true
   }

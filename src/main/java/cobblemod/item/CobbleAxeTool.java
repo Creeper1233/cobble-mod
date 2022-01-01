@@ -7,7 +7,6 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.AxeItem;
 import net.minecraft.entity.LivingEntity;
@@ -53,7 +52,7 @@ public class CobbleAxeTool {
 		}
 	};
 	public static final Item INSTANCE = new AxeItem(COBBLEAXE_TOOL_MATERIAL, 0, (float) -2.5999999999999999,
-			(new FabricItemSettings().group(ItemGroup.TOOLS))) {
+			(new FabricItemSettings().group(CobbletabItemGroup.get()))) {
 		@Override
 		public boolean postMine(ItemStack itemstack, World world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 			boolean retval = super.postMine(itemstack, world, blockstate, pos, entity);

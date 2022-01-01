@@ -1,13 +1,15 @@
 {
-  "group": "cobblecultmod",
+  "group": "cobblemod",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0 2",
-    "345",
-    "678"
+    "012",
+    "3 5"
   ],
   "key": {
     "0": {
+      "item": "minecraft:cobblestone"
+    },
+    "1": {
       "item": "minecraft:cobblestone"
     },
     "2": {
@@ -16,24 +18,12 @@
     "3": {
       "item": "minecraft:cobblestone"
     },
-    "4": {
-      "item": "minecraft:cobblestone"
-    },
     "5": {
-      "item": "minecraft:cobblestone"
-    },
-    "6": {
-      "item": "minecraft:cobblestone"
-    },
-    "7": {
-      "item": "minecraft:cobblestone"
-    },
-    "8": {
       "item": "minecraft:cobblestone"
     }
   },
   "result": {
-    "item": "cobblecultmod:cobble_armor_armor_chestplate",
+    "item": "cobblemod:cobble_armor_armor_helmet",
     "count": 1
   }
 }

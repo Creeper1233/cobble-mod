@@ -8,7 +8,7 @@
     "name": "Cobble Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Cobbletab"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 4,

@@ -15,7 +15,7 @@ public class Diamond1in100Procedure {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (Math.random() < 0.7) {
+		if (Math.random() < 0.9) {
 			if (entity instanceof PlayerEntity) {
 				ItemStack _setstack = new ItemStack(Items.DIAMOND);
 				_setstack.setCount((int) 1);

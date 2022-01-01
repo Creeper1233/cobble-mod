@@ -8,7 +8,7 @@
     "name": "Cobble Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Cobbletab"
     },
     "toolType": "Axe",
     "harvestLevel": 5,

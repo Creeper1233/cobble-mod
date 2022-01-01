@@ -1,10 +1,10 @@
 {
-  "group": "cobblecultmod",
+  "group": "cobblemod",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    " 4 ",
-    " 7 "
+    "0",
+    "1",
+    "2"
   ],
   "key": {
     "0": {
@@ -14,17 +14,11 @@
       "item": "minecraft:cooked_chicken"
     },
     "2": {
-      "item": "minecraft:cooked_chicken"
-    },
-    "4": {
-      "item": "minecraft:stick"
-    },
-    "7": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "cobblecultmod:cobble_pickaxe",
+    "item": "cobblemod:cobble_sword",
     "count": 1
   }
 }

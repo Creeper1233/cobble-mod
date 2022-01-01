@@ -47,44 +47,12 @@
       "registry_name": "cobble_armor_armor_boots_recipe"
     },
     {
-      "name": "Cobbletab",
-      "type": "tab",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobbletab"
-    },
-    {
       "name": "Cobblessong",
       "type": "musicdisc",
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobblessong"
-    },
-    {
-      "name": "Givechicken2",
-      "type": "procedure",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "givechicken_2",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Givechicken",
-      "type": "keybind",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "givechicken"
     },
     {
       "name": "CobblePickaxe",
@@ -181,6 +149,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "Cobbletab",
+      "type": "tab",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbletab"
+    },
+    {
+      "name": "Catjamdisc",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catjamdisc"
     }
   ],
   "variable_elements": [],
@@ -188,18 +172,29 @@
   "language_map": {
     "en_us": {
       "item.cobblecultmod.cobble_armor_armor_helmet": "Cobble_Armor Helmet",
-      "key.mcreator.givechicken": "Give chicken",
+      "item.cobblemod.cobble_armor_armor_helmet": "Cobble_Armor Helmet",
+      "item.cobblemod.cobble_shovel": "Cobble Shovel",
       "item.cobblecultmod.cobble_pickaxe": "Cobble Pickaxe",
       "item.cobblecultmod.cobble_axe": "Cobble Axe",
       "item.cobblecultmod.cobble_shovel": "Cobble Shovel",
-      "itemGroup.cobblecultmod.cobbletab": "Cobbletab",
+      "item.cobblemod.cobble_pickaxe": "Cobble Pickaxe",
       "item.cobblecultmod.cobblessong": "Cobblessong",
+      "item.cobblemod.cobblessong.desc": "Catjam",
+      "item.cobblemod.cobble_sword": "Cobble Sword",
+      "item.cobblecultmod.cobble_sword": "Cobble Sword",
+      "item.cobblecultmod.cobble_hoe": "Cobble Hoe",
+      "item.cobblemod.cobble_armor_armor_boots": "Cobble_Armor Boots",
+      "item.cobblecultmod.cobble_armor_armor_chestplate": "Cobble_Armor Chestplate",
+      "item.cobblemod.cobble_axe": "Cobble Axe",
+      "item.cobblemod.cobble_armor_armor_leggings": "Cobble_Armor Leggings",
+      "itemGroup.cobblemod.cobbletab": "Cobble Mod",
+      "item.cobblemod.cobble_armor_armor_chestplate": "Cobble_Armor Chestplate",
+      "itemGroup.cobblecultmod.cobbletab": "Cobble Mod",
+      "item.cobblemod.cobble_hoe": "Cobble Hoe",
       "item.cobblecultmod.cobblessong.desc": "Catjam",
       "item.cobblecultmod.cobble_armor_armor_leggings": "Cobble_Armor Leggings",
-      "item.cobblecultmod.cobble_sword": "Cobble Sword",
       "item.cobblecultmod.cobble_armor_armor_boots": "Cobble_Armor Boots",
-      "item.cobblecultmod.cobble_hoe": "Cobble Hoe",
-      "item.cobblecultmod.cobble_armor_armor_chestplate": "Cobble_Armor Chestplate"
+      "item.cobblemod.cobblessong": "Cobblessong"
     }
   },
   "foldersRoot": {
@@ -207,12 +202,12 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "cobblecultmod",
+    "modid": "cobblemod",
     "modName": "Cobble Mod",
     "version": "0.0.2",
     "description": "for cobble cult",
     "author": "iisnowcreeper",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://google.com",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -221,7 +216,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.16.5",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Chicken wings, MCreator \u003c3.",
     "modElementsPackage": "cobblemod",
     "lockBaseModFiles": false
   },

@@ -8,7 +8,7 @@
     "name": "Cobble Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Cobbletab"
     },
     "toolType": "Spade",
     "harvestLevel": 5,

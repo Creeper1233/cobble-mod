@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "cobblecultmod",
+  "id": "cobblemod",
   "version": "0.0.2",
   "name": "Cobble Mod",
   "description": "for cobble cult",
@@ -8,14 +8,14 @@
     "iisnowcreeper"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://google.com",
     "sources": "https://github.com/ClothCreators/Fabric-Generator-MCreator"
   },
   "license": "Academic Free License v3.0",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "cobblemod.CobblecultmodMod"
+      "cobblemod.CobblemodMod"
     ],
     "client": [
       "cobblemod.ClientInit"

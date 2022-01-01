@@ -8,7 +8,6 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.BlockState;
@@ -53,7 +52,7 @@ public class CobblePickaxeTool {
 		}
 	};
 	public static final Item INSTANCE = new PickaxeItem(COBBLEPICKAXE_TOOL_MATERIAL, 0, (float) -3,
-			(new FabricItemSettings().group(ItemGroup.TOOLS))) {
+			(new FabricItemSettings().group(CobbletabItemGroup.get()))) {
 		@Override
 		public boolean postMine(ItemStack itemstack, World world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 			boolean retval = super.postMine(itemstack, world, blockstate, pos, entity);
