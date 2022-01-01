@@ -17,23 +17,23 @@ import org.apache.logging.log4j.LogManager;
 
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 
-import net.fabricmc.fabric.api.screenhandler.v1.ScreenHandlerRegistry;
 import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
 import net.fabricmc.api.ModInitializer;
 
-import cobblemod.screen.CobbleeGui;
-
-import cobblemod.procedures.GivechickenProcedure;
+import cobblemod.procedures.Givechicken2Procedure;
+import cobblemod.procedures.Diamond1in100Procedure;
 
 import cobblemod.item.CobbletabItemGroup;
 import cobblemod.item.CobblessongMusicDisc;
 import cobblemod.item.Cobble_ArmorArmorArmorMaterial;
-
-import cobblemod.client.gui.screen.CobbleeGuiWindow;
+import cobblemod.item.CobbleSwordTool;
+import cobblemod.item.CobbleShovelTool;
+import cobblemod.item.CobblePickaxeTool;
+import cobblemod.item.CobbleHoeTool;
+import cobblemod.item.CobbleAxeTool;
 
 public class CobblecultmodMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
@@ -47,14 +47,17 @@ public class CobblecultmodMod implements ModInitializer {
 			Cobble_ArmorArmorArmorMaterial.LEGGINGS);
 	public static final Item Cobble_ArmorArmor_BOOTS = Registry.register(Registry.ITEM, id("cobble_armor_armor_boots"),
 			Cobble_ArmorArmorArmorMaterial.BOOTS);
-	public static final ScreenHandlerType<CobbleeGui.GuiContainerMod> CobbleeScreenType = ScreenHandlerRegistry.registerExtended(id("cobblee"),
-			CobbleeGui.GuiContainerMod::new);
+	public static final Item CobblePickaxe_ITEM = Registry.register(Registry.ITEM, id("cobble_pickaxe"), CobblePickaxeTool.INSTANCE);
+	public static final Item CobbleAxe_ITEM = Registry.register(Registry.ITEM, id("cobble_axe"), CobbleAxeTool.INSTANCE);
+	public static final Item CobbleSword_ITEM = Registry.register(Registry.ITEM, id("cobble_sword"), CobbleSwordTool.INSTANCE);
+	public static final Item CobbleShovel_ITEM = Registry.register(Registry.ITEM, id("cobble_shovel"), CobbleShovelTool.INSTANCE);
+	public static final Item CobbleHoe_ITEM = Registry.register(Registry.ITEM, id("cobble_hoe"), CobbleHoeTool.INSTANCE);
 
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing CobblecultmodMod");
-		new GivechickenProcedure();
-		CobbleeGuiWindow.screenInit();
+		new Givechicken2Procedure();
+		new Diamond1in100Procedure();
 		CommandRegistrationCallback.EVENT.register((dispatcher, dedicated) -> {
 		});
 	}

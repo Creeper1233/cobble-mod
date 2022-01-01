@@ -1,0 +1,34 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "cobble_hoe",
+    "customModelName": "Normal",
+    "name": "Cobble Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 5,
+    "efficiency": 24.0,
+    "attackSpeed": 12.0,
+    "enchantability": 26,
+    "damageVsEntity": 69420.0,
+    "usageCount": 69420,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.COOKED_CHICKEN"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "Diamond1in100"
+    }
+  }
+}

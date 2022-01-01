@@ -1,0 +1,30 @@
+{
+  "group": "cobblecultmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "1": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "2": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "cobblecultmod:cobble_axe",
+    "count": 1
+  }
+}

@@ -47,30 +47,6 @@
       "registry_name": "cobble_armor_armor_boots_recipe"
     },
     {
-      "name": "Cobblee",
-      "type": "gui",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobblee"
-    },
-    {
-      "name": "Givechicken",
-      "type": "procedure",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "givechicken",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Cobbletab",
       "type": "tab",
       "sortid": 8,
@@ -85,6 +61,126 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobblessong"
+    },
+    {
+      "name": "Givechicken2",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "givechicken_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Givechicken",
+      "type": "keybind",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "givechicken"
+    },
+    {
+      "name": "CobblePickaxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_pickaxe"
+    },
+    {
+      "name": "CobbleAxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_axe"
+    },
+    {
+      "name": "CobbleSword",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_sword"
+    },
+    {
+      "name": "CobbleShovel",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_shovel"
+    },
+    {
+      "name": "CobbleHoe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_hoe"
+    },
+    {
+      "name": "CobblePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_pickaxe_recipe"
+    },
+    {
+      "name": "CobbleAxeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_axe_recipe"
+    },
+    {
+      "name": "CobbleSwordRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_sword_recipe"
+    },
+    {
+      "name": "CobbleShovelRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_shovel_recipe"
+    },
+    {
+      "name": "CobbleHoeRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_hoe_recipe"
+    },
+    {
+      "name": "Diamond1in100",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_1in_100",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -92,12 +188,18 @@
   "language_map": {
     "en_us": {
       "item.cobblecultmod.cobble_armor_armor_helmet": "Cobble_Armor Helmet",
+      "key.mcreator.givechicken": "Give chicken",
+      "item.cobblecultmod.cobble_pickaxe": "Cobble Pickaxe",
+      "item.cobblecultmod.cobble_axe": "Cobble Axe",
+      "item.cobblecultmod.cobble_shovel": "Cobble Shovel",
+      "itemGroup.cobblecultmod.cobbletab": "Cobbletab",
       "item.cobblecultmod.cobblessong": "Cobblessong",
       "item.cobblecultmod.cobblessong.desc": "Catjam",
       "item.cobblecultmod.cobble_armor_armor_leggings": "Cobble_Armor Leggings",
+      "item.cobblecultmod.cobble_sword": "Cobble Sword",
       "item.cobblecultmod.cobble_armor_armor_boots": "Cobble_Armor Boots",
-      "item.cobblecultmod.cobble_armor_armor_chestplate": "Cobble_Armor Chestplate",
-      "itemGroup.cobblecultmod.cobbletab": "Cobbletab"
+      "item.cobblecultmod.cobble_hoe": "Cobble Hoe",
+      "item.cobblecultmod.cobble_armor_armor_chestplate": "Cobble_Armor Chestplate"
     }
   },
   "foldersRoot": {
@@ -107,9 +209,10 @@
   "workspaceSettings": {
     "modid": "cobblecultmod",
     "modName": "Cobble Mod",
-    "version": "alpha 1.0",
+    "version": "0.0.2",
     "description": "for cobble cult",
     "author": "iisnowcreeper",
+    "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -118,6 +221,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "cobblemod",
     "lockBaseModFiles": false
   },
