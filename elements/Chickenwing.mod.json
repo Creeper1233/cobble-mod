@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "chickenwings",
+    "customModelName": "Normal",
+    "name": "Chicken wing",
+    "rarity": "RARE",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Cobbletab"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 10,
+    "saturation": 0.3,
+    "eatingSpeed": 40,
+    "resultItem": {
+      "value": "Items.BONE"
+    },
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onDroppedByPlayer": {
+      "name": "ChickenwingItemIsDroppedByPlayer"
+    }
+  }
+}

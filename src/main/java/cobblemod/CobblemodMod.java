@@ -24,6 +24,7 @@ import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
 import net.fabricmc.api.ModInitializer;
 
 import cobblemod.procedures.Diamond1in100Procedure;
+import cobblemod.procedures.ChickenwingItemIsDroppedByPlayerProcedure;
 
 import cobblemod.item.CobbletabItemGroup;
 import cobblemod.item.CobblessongMusicDisc;
@@ -56,6 +57,7 @@ public class CobblemodMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing CobblemodMod");
 		new Diamond1in100Procedure();
+		new ChickenwingItemIsDroppedByPlayerProcedure();
 		CommandRegistrationCallback.EVENT.register((dispatcher, dedicated) -> {
 		});
 	}

@@ -1,0 +1,16 @@
+{
+  "group": "cobblemod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "item": "minecraft:bone"
+    }
+  ],
+  "result": {
+    "item": "cobblemod:chickenwing",
+    "count": 1
+  }
+}

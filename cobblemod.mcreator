@@ -165,6 +165,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "catjamdisc"
+    },
+    {
+      "name": "ChickenwingItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chickenwing_item_is_dropped_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chickenwing",
+      "type": "food",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chickenwing"
+    },
+    {
+      "name": "CraftChickenWing",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_chicken_wing"
     }
   ],
   "variable_elements": [],
@@ -188,6 +220,7 @@
       "item.cobblemod.cobble_axe": "Cobble Axe",
       "item.cobblemod.cobble_armor_armor_leggings": "Cobble_Armor Leggings",
       "itemGroup.cobblemod.cobbletab": "Cobble Mod",
+      "item.cobblemod.chickenwing": "Chicken wing",
       "item.cobblemod.cobble_armor_armor_chestplate": "Cobble_Armor Chestplate",
       "itemGroup.cobblecultmod.cobbletab": "Cobble Mod",
       "item.cobblemod.cobble_hoe": "Cobble Hoe",
