@@ -6,7 +6,7 @@
     "texture": "chickenwings",
     "customModelName": "Normal",
     "name": "Chicken wing",
-    "rarity": "RARE",
+    "rarity": "COMMON",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Cobbletab"
